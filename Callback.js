@@ -43,7 +43,7 @@ function third (value, callback){
 // let x = function(){
 //     console.log("first");
     // callback()
-};
+// };
 
 // let y = function(asd){
 //     console.log("second");

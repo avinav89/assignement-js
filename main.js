@@ -24,7 +24,7 @@
 // var request = require("request");
 //   console.log(require.callWeb);
 var request = require("request");
-debugger;
+// debugger;
 function callWebyahoo() {
     request('https://in.yahoo.com/', function (error, response, body) {
           console.log('yahoo error:', error); // Print the error if one occurred
@@ -33,7 +33,7 @@ function callWebyahoo() {
     });
 }
 
-var request = require("request");
+// var request = require("request");
  function callWebgoogle () {
     request('https://www.google.com', function (error, response, body) {
           console.log('google error:', error); // Print the error if one occurred
