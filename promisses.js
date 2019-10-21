@@ -1,6 +1,4 @@
-var promise1 = new Promise(function(resolve,reject)
-{resolve();});
-promise1.then(callWebgoogle).then(callWebyahoo).then(callWebytube)
+
 // .then().then(callWebytube)
 
 
@@ -33,3 +31,6 @@ function callWebyahoo() {
 
     });
 }
+var promise1 = new Promise(function(resolve,reject)
+{resolve();});
+promise1.then(callWebgoogle).then(callWebyahoo).then(callWebytube)
