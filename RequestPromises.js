@@ -30,7 +30,8 @@ rp({ uri: 'http://www.google.com', resolveWithFullResponse: true })
         console.log("ytube", response.statusCode)
         rp({ uri: 'https://www.yahoo.co.in', resolveWithFullResponse: true })
           .then(function (response) {
-            console.log("Yahoo", response.statusCode)
+            console.log("Yahoo", response.statusCode) 
+            //new
           })
       })
   })
