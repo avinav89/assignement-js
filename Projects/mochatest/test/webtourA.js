@@ -29,4 +29,3 @@ module.exports = async () => {
         await browser.close();
     }
 };
-//

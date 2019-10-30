@@ -17,7 +17,7 @@ module.exports = async () => {
     element5.click();
     // element.getProperty('getText');
     // console.log('element', element)
-    // await page.waitFor(2000);
+    await page.waitFor(2000);
     await page.type('#signinUserName', '8850892144');
     await page.type('#signinPassword', 'authorised@12');
     const [element1] = await page.$x("//input[@id='btnsignin']");

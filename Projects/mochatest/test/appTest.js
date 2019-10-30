@@ -1,27 +1,28 @@
 const assert = require('chai').assert;
-const valiD = require('./example.js')
-const InvaliD = require('./webTour')
-const blanK = require('./webtourA')
+const txt = require('./example.js')
+const webtour = require('./webTour')
+const webtourA = require('./webtourA')
 
 
 describe('App', function() {
     it('authorised dealer with valid cred', async function() {
-        let result = await valiD();   
+        let result = await txt();   
         assert.equal(result, 'Sign Out'); 
     });
 
     it('authorised dealer with invalid cred.', async function() {
-        let result = await InvaliD();   
+        let result = await webtour();   
         assert.equal(result, 'Username and Password did not match.'); 
     });
 
     it('authorised dealer with blank cred.', async function() {
-        let result = await blanK();   
+        let result = await webtourA();   
         assert.equal(result, 'Please enter username.'); 
     });
 
 });
 
+// div[text()="Please enter username.
 
 
 
