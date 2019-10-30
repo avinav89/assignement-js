@@ -1,0 +1,17 @@
+{
+  "name": "mochatest",
+  "version": "1.0.0",
+  "description": "Simple app for testing",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --timeout 30000"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "save-dev": "0.0.1-security"
+  }
+}

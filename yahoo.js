@@ -25,7 +25,7 @@
 // }
 // geeky(function (a){
 //     console.log("i am synchronous function " + a);})
-    
+
 //-------------------------Arrow function---------------------------------------------------
 
 
@@ -37,22 +37,9 @@
 //---------------------asynchronous function-----------------------------------------------------
 // setTimeout(function show (a){
 //         console.log("i am function" + a);
-    
+
 //     },5000);
 
 //     console.log("end");
 //----------------------------------------------------------------------------------
-
-const reques = require("request");
-let result;
-reques('http://www.somepage.com', function (error, response, body) {
-    if(error){
-        // Handle error.
-    }
-    else {
-        result = body;
-    }
-});
-console.log(result);
-
 

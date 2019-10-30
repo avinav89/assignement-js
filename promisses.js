@@ -1,10 +1,4 @@
 
-// .then().then(callWebytube)
-
-
-
-
-
 var request = require("request");
 
 function callWebytube() {
@@ -22,7 +16,7 @@ function callWebgoogle() {
         // return 'google'
     });
 }
-
+s
 function callWebyahoo() {
     request('https://in.yahoo.com/', function (error, response, body) {
         console.log('yahoo error:', error);
@@ -31,6 +25,8 @@ function callWebyahoo() {
 
     });
 }
-var promise1 = new Promise(function(resolve,reject)
-{resolve();});
-promise1.then(callWebgoogle).then(callWebyahoo).then(callWebytube)
+// var promise1 = new Promise(function (resolve, reject) { resolve(); });
+// promise1.then(callWebgoogle).then(callWebyahoo).then(callWebytube)
+
+var promise1 = new Promise(function (resolve, reject) { resolve(); });
+ promise1.then(callWebgoogle).then(callWebyahoo).then(callWebytube)
